@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background: #2d3436;
+    padding: 0;
+    margin: 0;
+}
+#my-canvas {
+    background: rgb(19, 15, 64);
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+#gameover{
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%,-59%);
+    font-family: 'Lato', sans-serif;
+    font-size: 85px;
+    font-weight: 800;
+    color: #c0392b;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    user-select: none;
+}
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border: solid 3px #141414;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
